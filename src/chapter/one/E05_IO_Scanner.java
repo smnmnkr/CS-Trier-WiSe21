@@ -1,4 +1,4 @@
-package week.one;
+package chapter.one;
 
 import java.util.Scanner;
 

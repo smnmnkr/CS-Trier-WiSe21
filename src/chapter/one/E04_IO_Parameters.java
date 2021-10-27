@@ -1,4 +1,4 @@
-package week.one;
+package chapter.one;
 
 public class E04_IO_Parameters {
 

@@ -1,4 +1,4 @@
-package week.one;
+package chapter.one;
 
 public class E01_first_example {
 
