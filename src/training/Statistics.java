@@ -91,7 +91,7 @@ public class Statistics {
     public static double variance(int[] data) {
 
         double mean = mean(data);
-        double var = 0;
+        double var = 0.0;
 
         // enhancement: 'for' loop replaceable with enhanced 'for'
         // example code: for (int x : data) { (Java Version 5)
@@ -119,7 +119,7 @@ public class Statistics {
             swapped = false;
 
             for (int i = 0; i < sorted.length - 1; i++) {
-                if(sorted[i] > sorted[i + 1]) {
+                if (sorted[i] > sorted[i + 1]) {
                     swapped = true;
 
                     // swap
@@ -138,7 +138,7 @@ public class Statistics {
         System.out.print("[");
         for (int i = 0; i < data.length; i++) {
             System.out.print(data[i]);
-            if(i + 1 < data.length) System.out.print(", ");
+            if (i + 1 < data.length) System.out.print(", ");
         }
         System.out.println("]");
     }
